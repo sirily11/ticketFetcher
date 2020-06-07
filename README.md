@@ -1,32 +1,10 @@
-# React With Electron
-[![Build Status](https://travis-ci.com/sirily11/electron-react-template.svg?branch=master)](https://travis-ci.com/sirily11/electron-react-template)
+<!-- @format -->
 
-# This is the template using electron and react together with Typescript
-You can use this template to build any react-electron app.
-It has material-ui as UI framework,  axios for http requests,  jest for testing and
-lingui for multilanguages support. It also has travis CI file included.
+# TicketFetcher
 
-# yarn build
-Build your render's html but not the actual electron app
+Covid-19 席卷全球，机票价格难以接受。是时候展现出你作为程序员的力量，用你的爬虫知识来减轻你的钱包的负担了。
+TicketFetcher 就是一个软件能够让你一次性爬取选中的航空公司，之后不断的不断的获取新的航线。全自动信息获取是最终目的。
 
-# yarn electron-dev
-Start your development environment
+希望你能奉献出你的一份能力，让黄牛和黑心票代从此失去饭碗！
 
-# yarn mac
-After running yarn build, use this command to build app for Mac OS X
-
-# yarn win
-After running yarn build, use this command to build app for Windows
-
-# yarn test
-Test your software
-
-# yarn add-locale
-Add new language to your app
-
-# yarn extract
-Extract your language to language file
-
-# yarn compile
-Compile your language file
-
+前端使用 Electron，后端使用 Node JS 进行爬虫。语言 Typescript。没有服务器要求，全部本地化存储。

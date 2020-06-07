@@ -49,19 +49,39 @@ export class DetailProvider extends Component<DetailProps, DetailContext> {
               info: [
                 {
                   flightNumber: "DL287",
-                  startAirport: { name: "SZ", iata: "SZX", iso: "a" },
-                  endAirport: { name: "Xia men", iata: "XIA", iso: "a" },
+                  startAirport: {
+                    name: "Shenzhen Bao'an International Airport",
+                    iata: "SZX",
+                    iso: "a",
+                  },
+                  endAirport: {
+                    name: "Xiamen Gaoqi international Airport",
+                    iata: "XMN",
+                    iso: "a",
+                  },
                   isLayover: false,
                 },
                 {
-                  startAirport: { name: "Xia mn", iata: "SZX", iso: "a" },
+                  startAirport: {
+                    name: "Xiamen Gaoqi international Airport",
+                    iata: "XMN",
+                    iso: "a",
+                  },
                   isLayover: true,
                   layoverDuration: 30,
                 },
                 {
                   flightNumber: "DL287",
-                  startAirport: { name: "Xia mn", iata: "SZX", iso: "a" },
-                  endAirport: { name: "SH", iata: "PVG", iso: "a" },
+                  startAirport: {
+                    name: "Xiamen Gaoqi international Airport",
+                    iata: "XMN",
+                    iso: "a",
+                  },
+                  endAirport: {
+                    name: "Pudong International Airport",
+                    iata: "PVG",
+                    iso: "a",
+                  },
                   startDate: new Date(),
                   endDate: new Date(),
                   isLayover: false,
@@ -81,19 +101,39 @@ export class DetailProvider extends Component<DetailProps, DetailContext> {
               info: [
                 {
                   flightNumber: "DL287",
-                  startAirport: { name: "SZ", iata: "SZX", iso: "a" },
-                  endAirport: { name: "Xia men", iata: "XIA", iso: "a" },
+                  startAirport: {
+                    name: "Shenzhen Bao'an International Airport",
+                    iata: "SZX",
+                    iso: "a",
+                  },
+                  endAirport: {
+                    name: "Xiamen Gaoqi international Airport",
+                    iata: "XMN",
+                    iso: "a",
+                  },
                   isLayover: false,
                 },
                 {
-                  startAirport: { name: "Xia mn", iata: "SZX", iso: "a" },
+                  startAirport: {
+                    name: "Xiamen Gaoqi international Airport",
+                    iata: "XMN",
+                    iso: "a",
+                  },
                   isLayover: true,
                   layoverDuration: 30,
                 },
                 {
                   flightNumber: "DL287",
-                  startAirport: { name: "Xia mn", iata: "SZX", iso: "a" },
-                  endAirport: { name: "SH", iata: "PVG", iso: "a" },
+                  startAirport: {
+                    name: "Xiamen Gaoqi international Airport",
+                    iata: "XMN",
+                    iso: "a",
+                  },
+                  endAirport: {
+                    name: "Pudong International Airport",
+                    iata: "PVG",
+                    iso: "a",
+                  },
                   startDate: new Date(),
                   endDate: new Date(),
                   isLayover: false,
