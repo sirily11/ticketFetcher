@@ -1,6 +1,9 @@
+/** @format */
+
 body,
 html {
   height: 100%;
+  width: 100%;
   margin: 0px;
   padding-top: 20px;
 }
@@ -8,4 +11,17 @@ html {
 #root,
 #second-root {
   height: 100%;
+  width: 100%;
+}
+
+.switch-wrapper {
+  width: 100%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
