@@ -8,3 +8,6 @@ TicketFetcher 就是一个软件能够让你一次性爬取选中的航空公司
 希望你能奉献出你的一份能力，让黄牛和黑心票代从此失去饭碗！
 
 前端使用 Electron，后端使用 Node JS 进行爬虫。语言 Typescript。没有服务器要求，全部本地化存储。
+
+![cover](./cover/1.png)
+![cover](./cover/2.png)
